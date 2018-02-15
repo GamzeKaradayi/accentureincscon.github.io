@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+	<!-- Generic page container -->
+	<div class="page-container">
+		<!-- Header containing app logo and welcome text for mobile view -->
+		<div class="mobile-header">
+			<a class="title" href="home.html">
+				<div class="bold">öğrenci</div>
+				<div>evi</div>
+			</a>
+			<div class="welcome-text">
+				Hoşgeldiniz&nbsp;<span class="bold">{{username}}</span>!
+			</div>
+		</div>
+		<!-- Navigation links for both mobile and non-mobile (tablet and desktop) views -->
+		<div class="navigation-links">
+			<div class="title-and-welcome-text">
+				<a class="title" href="home.html">
+					<div class="bold">öğrenci</div>
+					<div>evi</div>
+				</a>
+				<div class="welcome-text">
+					Hoşgeldiniz&nbsp;<span class="bold">{{username}}</span>!
+				</div>
+			</div>
+			<div class="navigation-links-inner">
+				<a class="navigation-link home-link active" href="home.html">
+					<div class="icon"></div>
+					<div class="label">Ana Sayfa</div>
+				</a>
+				<a class="navigation-link roulette-link" href="roulette.html">
+					<div class="icon"></div>
+					<div class="label">İş Ruleti</div>
+				</a>
+				<a class="navigation-link logout-link" href="index.html">
+					<div class="icon"></div>
+					<div class="label">Logout</div>
+				</a>
+			</div>
+		</div>
+		<!-- Content of the page -->
+		<div class="page-content">
+			<div class="title-with-lines">
+				<div class="line"></div>
+				<div class="title bold">Ev Halkı</div>
+				<div class="line"></div>
+			</div>
+			<table class="people-table">
+				<thead>
+					<tr>
+						<th class="name-surname-column">Adı Soyadı</th>
+						<th class="task-count-column">Toplam Görev</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="odd">
+						<td class="name-surname-column">Jane Doe</td>
+						<td class="task-count-column">12</td>
+						<td class="delete-column">sil</td>
+					</tr>
+					<tr>
+						<td class="name-surname-column">Tim Berners Lee</td>
+						<td class="task-count-column">8</td>
+						<td class="delete-column">sil</td>
+					</tr>
+					<tr class="odd">
+						<td class="name-surname-column">Brendan Eich</td>
+						<td class="task-count-column">6</td>
+						<td class="delete-column">sil</td>
+					</tr>
+					<tr>
+						<td class="name-surname-column">Alex Wong</td>
+						<td class="task-count-column">2</td>
+						<td class="delete-column">sil</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="add-new-button-container">
+				<button class="add-new-button">+ Yeni Kişi</button>
+			</div>
+			<div class="title-with-lines">
+				<div class="line"></div>
+				<div class="title bold">İşler</div>
+				<div class="line"></div>
+			</div>
+			<div class="job-list">
+				<div class="job-container">
+					<div class="job-item">Bulaşık Yıkama</div>
+					<div class="delete-button">sil</div>
+				</div>
+				<div class="job-container">
+					<div class="job-item">Markete Gitme</div>
+					<div class="delete-button">sil</div>
+				</div>
+				<div class="job-container">
+					<div class="job-item">Tavuk Döner Alıp Gelme</div>
+					<div class="delete-button">sil</div>
+				</div>
+				<div class="job-container">
+					<div class="job-item">Pizza Ismarlama</div>
+					<div class="delete-button">sil</div>
+				</div>
+				<div class="job-container">
+					<div class="job-item">Ekmek Alma</div>
+					<div class="delete-button">sil</div>
+				</div>
+				<div class="job-container">
+					<div class="job-item">Temizlik</div>
+					<div class="delete-button">sil</div>
+				</div>
+			</div>
+			<div class="add-new-button-container">
+				<button class="add-new-button">+ Yeni İş</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
