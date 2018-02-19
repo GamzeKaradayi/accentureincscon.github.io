@@ -93,6 +93,19 @@
 	opacity: 0.6;
 }
 
+.page-container .page-content .job-list .job-container .assignee {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	width: 140px;
+}
+
+.page-container .page-content .job-list .job-container .assignee.not-available {
+	color: #9E9E9E;
+	font-style: italic;
+}
+
 .page-container .page-content .job-list .job-container .delete-button {
 	color: #F44336;
 	cursor: pointer;
