@@ -133,10 +133,7 @@ body {
 	left: 0px;
 	right: 0px;
 	overflow: auto;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 30px 20px 30px;
 }
 
 
@@ -200,6 +197,27 @@ body {
 
 @media only screen and (min-width: 737px) {
 	.page-container .mobile-header {
+		display: none;
+	}
+}
+
+
+/* CSS for small screen mobile phones */
+
+@media only screen and (max-width: 450px) {
+	.page-container .mobile-header .title {
+		padding-left: 15px;
+	}
+	.page-container .mobile-header .welcome-text {
+		padding-right: 15px;
+	}
+	.page-container .page-content {
+		padding: 10px 15px 10px 15px;
+	}
+	.page-container .navigation-links .navigation-links-inner .navigation-link .icon {
+		margin-right: 0px;
+	}
+	.page-container .navigation-links .navigation-links-inner .navigation-link .label {
 		display: none;
 	}
 }

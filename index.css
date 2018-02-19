@@ -25,7 +25,7 @@
 	margin-top: 100px;
 	background-color: #8a98df14;
 	padding: 40px;
-	border-radius: 5px
+	border-radius: 5px;
 }
 
 .login-page .login-form .common-input {
@@ -57,4 +57,18 @@
 
 .login-page .login-form .login-button-container .login-button:hover {
 	opacity: 0.7;
+}
+
+
+/* CSS for small screen mobile phones */
+
+@media only screen and (max-width: 450px) {
+	.login-page .login-form {
+		width: 280px;
+		padding: 25px;
+		margin-top: 50px;
+	}
+	.login-page .login-form .login-button-container .login-button {
+		width: 115px;
+	}
 }

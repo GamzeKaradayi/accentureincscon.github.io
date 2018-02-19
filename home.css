@@ -115,3 +115,12 @@
 .page-container .page-content .job-list .job-container .delete-button:hover {
 	opacity: 0.6;
 }
+
+
+/* CSS for small screen mobile phones */
+
+@media only screen and (max-width: 450px) {
+	.page-container .page-content .job-list .job-container .assignee {
+		width: 100px;
+	}
+}

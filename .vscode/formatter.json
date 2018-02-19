@@ -1,0 +1,22 @@
+{
+	"onSave": true,
+	"javascript": {
+		"indent_size": 4,
+		"indent_with_tabs": true,
+		"eol": "\n",
+		"brace_style": "end-expand",
+		"space_before_conditional": true,
+		"space_after_anon_function": true,
+		"preserve_newlines": true
+	},
+	"css": {
+		"indent_size": 4,
+		"indent_with_tabs": true,
+		"eol": "\n"
+	},
+	"html": {
+		"indent_size": 4,
+		"indent_with_tabs": true,
+		"eol": "\n"
+	}
+}
